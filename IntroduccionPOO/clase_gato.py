@@ -13,7 +13,7 @@ class Gato:
 		self.alimentos=[] 
 
 	def esAdulto(self):
-		if self.edad>1:
+		if self.edad > 1:
 			print(self.nombre, "es adulto")
 		else:
 			print(self.nombre, "es cachorro")
@@ -23,7 +23,7 @@ class Gato:
 
 
 #Instanciar un objeto Gato   
-p=Gato("Pelusa",1)
+miGato=Gato("Pelusa",1)
 
 #Imprimir un atributo
-print(p.nombre)
+print(miGato.nombre)

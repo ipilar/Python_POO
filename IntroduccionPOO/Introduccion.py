@@ -41,7 +41,8 @@ Pueden ser de cualquier tipo de dato (incluso otros objetos).
 valor es el mismo para todos los objetos o no. 
 Pueden crearse de forma dinamica durante la ejecucion.
 
-Atributos de Clase: o estaticos son compartidos para todos los objetos de una misma clase.
+Atributos de Clase: o atributos estaticos son compartidos para todos los objetos de una misma clase. Se pueden leer y utilizar sin necesidad de una instancia.
+
 Atributos de Instancia:
 
 METODOS
@@ -59,3 +60,4 @@ No es obligatorio crealo ni inicializar todos los atributos.
 
 
 """
+
